@@ -1,0 +1,45 @@
+{
+  "name": "personalint",
+  "displayName": "PersonaLint",
+  "description": "Personalized, developer-specific code smell detection",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Linters"
+  ],
+  "activationEvents": [
+    "onLanguage:python"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "PersonaLint",
+      "properties": {
+        "personalint.serverUrl": {
+          "type": "string",
+          "default": "http://localhost:5050",
+          "description": "URL of the local PersonaLint Flask server."
+        },
+        "personalint.developerId": {
+          "type": "string",
+          "default": "",
+          "description": "Your developer name as it appears in the fingerprints (e.g. 'Nate Prewitt'). Leave blank to use the population baseline."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "@types/vscode": "^1.140.0",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
