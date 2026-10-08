@@ -1,0 +1,11 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+# large generated datasets (>50MB) - regenerate with data_collection/build_corpus.py
+data/corpus_dataset.json
+data/labeled_corpus.json
+data/fingerprints/*.json
+!data/fingerprints/test_developer.json

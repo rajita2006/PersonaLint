@@ -1,0 +1,210 @@
+[
+  {
+    "repo": "requests",
+    "author": "Nate Prewitt",
+    "commits_analyzed": 80,
+    "functions_analyzed": 8605,
+    "baseline": {
+      "loc": 11.8164,
+      "max_nesting_depth": 0.5973,
+      "num_params": 1.8199,
+      "num_branches": 1.0668,
+      "naming_quality": 0.8409
+    }
+  },
+  {
+    "repo": "requests",
+    "author": "Ian Stapleton Cordasco",
+    "commits_analyzed": 28,
+    "functions_analyzed": 3750,
+    "baseline": {
+      "loc": 10.6392,
+      "max_nesting_depth": 0.5147,
+      "num_params": 1.8179,
+      "num_branches": 0.8635,
+      "naming_quality": 0.8224
+    }
+  },
+  {
+    "repo": "flask",
+    "author": "David Lord",
+    "commits_analyzed": 80,
+    "functions_analyzed": 9635,
+    "baseline": {
+      "loc": 13.4273,
+      "max_nesting_depth": 0.458,
+      "num_params": 1.376,
+      "num_branches": 0.8013,
+      "naming_quality": 0.8696
+    }
+  },
+  {
+    "repo": "httpx",
+    "author": "Tom Christie",
+    "commits_analyzed": 55,
+    "functions_analyzed": 3861,
+    "baseline": {
+      "loc": 13.1502,
+      "max_nesting_depth": 0.6055,
+      "num_params": 1.936,
+      "num_branches": 0.942,
+      "naming_quality": 0.9733
+    }
+  },
+  {
+    "repo": "httpx",
+    "author": "Kar Petrosyan",
+    "commits_analyzed": 15,
+    "functions_analyzed": 1671,
+    "baseline": {
+      "loc": 15.5589,
+      "max_nesting_depth": 0.8253,
+      "num_params": 3.1341,
+      "num_branches": 1.2585,
+      "naming_quality": 0.9733
+    }
+  },
+  {
+    "repo": "black",
+    "author": "cobalt",
+    "commits_analyzed": 26,
+    "functions_analyzed": 2380,
+    "baseline": {
+      "loc": 21.5143,
+      "max_nesting_depth": 1.2521,
+      "num_params": 1.6908,
+      "num_branches": 2.471,
+      "naming_quality": 0.9293
+    }
+  },
+  {
+    "repo": "click",
+    "author": "David Lord",
+    "commits_analyzed": 80,
+    "functions_analyzed": 12783,
+    "baseline": {
+      "loc": 14.2536,
+      "max_nesting_depth": 0.7634,
+      "num_params": 2.055,
+      "num_branches": 1.5032,
+      "naming_quality": 0.8913
+    }
+  },
+  {
+    "repo": "click",
+    "author": "Kevin Deldycke",
+    "commits_analyzed": 80,
+    "functions_analyzed": 12639,
+    "baseline": {
+      "loc": 14.3507,
+      "max_nesting_depth": 0.7255,
+      "num_params": 2.0243,
+      "num_branches": 1.3862,
+      "naming_quality": 0.8895
+    }
+  },
+  {
+    "repo": "gunicorn",
+    "author": "Benoit Chesneau",
+    "commits_analyzed": 80,
+    "functions_analyzed": 13571,
+    "baseline": {
+      "loc": 15.2536,
+      "max_nesting_depth": 0.8287,
+      "num_params": 1.5453,
+      "num_branches": 1.7249,
+      "naming_quality": 0.9229
+    }
+  },
+  {
+    "repo": "gunicorn",
+    "author": "Randall Leeds",
+    "commits_analyzed": 80,
+    "functions_analyzed": 3813,
+    "baseline": {
+      "loc": 11.0089,
+      "max_nesting_depth": 1.0071,
+      "num_params": 1.6258,
+      "num_branches": 2.0409,
+      "naming_quality": 0.8403
+    }
+  },
+  {
+    "repo": "urllib3",
+    "author": "Illia Volochii",
+    "commits_analyzed": 44,
+    "functions_analyzed": 5968,
+    "baseline": {
+      "loc": 15.3663,
+      "max_nesting_depth": 0.8539,
+      "num_params": 1.7445,
+      "num_branches": 1.4506,
+      "naming_quality": 0.8511
+    }
+  },
+  {
+    "repo": "urllib3",
+    "author": "Quentin Pradet",
+    "commits_analyzed": 23,
+    "functions_analyzed": 2742,
+    "baseline": {
+      "loc": 16.2848,
+      "max_nesting_depth": 1.0467,
+      "num_params": 1.6922,
+      "num_branches": 1.7316,
+      "naming_quality": 0.8791
+    }
+  },
+  {
+    "repo": "attrs",
+    "author": "Hynek Schlawack",
+    "commits_analyzed": 51,
+    "functions_analyzed": 6724,
+    "baseline": {
+      "loc": 18.4413,
+      "max_nesting_depth": 0.6086,
+      "num_params": 2.0574,
+      "num_branches": 1.2094,
+      "naming_quality": 0.7468
+    }
+  },
+  {
+    "repo": "tornado",
+    "author": "Ben Darnell",
+    "commits_analyzed": 80,
+    "functions_analyzed": 36080,
+    "baseline": {
+      "loc": 11.4768,
+      "max_nesting_depth": 0.5863,
+      "num_params": 1.5099,
+      "num_branches": 1.0148,
+      "naming_quality": 0.9261
+    }
+  },
+  {
+    "repo": "tornado",
+    "author": "Pierce Lopez",
+    "commits_analyzed": 37,
+    "functions_analyzed": 7052,
+    "baseline": {
+      "loc": 9.5678,
+      "max_nesting_depth": 0.5159,
+      "num_params": 1.3622,
+      "num_branches": 0.8477,
+      "naming_quality": 0.9381
+    }
+  },
+  {
+    "repo": "celery",
+    "author": "Asif Saif Uddin",
+    "commits_analyzed": 1,
+    "functions_analyzed": 11,
+    "baseline": {
+      "loc": 5.0909,
+      "max_nesting_depth": 0.5455,
+      "num_params": 0.3636,
+      "num_branches": 0.7273,
+      "naming_quality": 0.4432
+    }
+  }
+]

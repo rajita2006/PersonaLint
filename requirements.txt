@@ -1,0 +1,9 @@
+GitPython==3.1.43
+scikit-learn==1.5.1
+pandas==2.2.2
+numpy==1.26.4
+radon==6.0.1
+pylint==3.2.6
+anthropic==0.34.2
+python-dotenv==1.0.1
+scipy==1.14.0
